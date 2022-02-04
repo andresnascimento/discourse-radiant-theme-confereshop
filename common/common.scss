@@ -179,7 +179,7 @@ textarea:focus {
     &:hover,
     &.btn-hover {
       color: $color-white;
-      background: $tertiary-hover;
+      background:#7C66FF;
       .d-icon {
         color: $color-white;
       }
@@ -334,4 +334,36 @@ table th {
 
 #main-outlet {
   background: #fff;
+}
+
+.select-kit {
+  .single-select{
+    .dropdown-select-box{
+      .is-expanded {
+        .select-kit-collection{
+          border-radius: 6px;
+          padding: 4px;
+        }
+      }
+    }
+  }
+
+  .select-kit-row{
+    .is-highlighted {
+      background: #fff;
+    }
+  }
+}
+
+.more-topics {
+  .btn {
+    color: #fff !important;
+  }
+}
+
+.table-heading {color: #1A1859;}
+.category-list th {color: #1A1859;}
+
+.reason {
+  .text{color:#827F9E;}
 }
