@@ -169,11 +169,11 @@ textarea:focus {
 }
 
 .btn {
-  border-radius: $radius-4;
-  background: $color-mud;
-  color: $primary-high;
+  border-radius: $radius-8;
+  background: #1A1859;
+  color: #fff;
   .d-icon {
-    color: $primary-high;
+    color: #fff;
   }
   .discourse-no-touch & {
     &:hover,
@@ -280,14 +280,58 @@ textarea:focus {
 
 
 .navigation-container {
+  margin-bottom: 24px;
   .nav-pills  {
-    li a:hover{
-      background-color: #E3E3ED;
-      color: #1A1859;
-      border-radius: 100px;
-    }
-    li a.active {
-      border-radius: 100px;
+     li{
+       a {
+        border-radius: 100px!important;
+      }
+       a:hover{
+        background-color: #E3E3ED;
+        color: #1A1859;
+        border-radius: 100px;
+        box-shadow: none;
+      }
+       a.active {
+        border-radius: 100px;
+      }
+     }
+  }
+}
+
+
+.topic-list {
+  .topic-list-data {
+    padding: 8px 16px;
+  }
+}
+.discourse-no-touch {
+  transition: .3s;
+  .sortable:hover{
+    background-color: #E3E3ED!important;
+    transition: .3s;
+  }
+}
+
+table th {
+  color: #1A1859;
+}
+
+
+.save-or-cancel {
+  .btn {
+    background: #00C1CC;
+  }
+}
+
+.categories-list {
+  .category {
+    .category-description {
+      color: #827F9E;
     }
   }
+}
+
+#main-outlet {
+  background: #fff;
 }
