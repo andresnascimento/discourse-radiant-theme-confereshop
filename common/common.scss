@@ -156,7 +156,7 @@ textarea:focus {
 #create-topic{
   border: 2px solid $color-royal;
   background-color: $color-royal;
-  border-radius: 10px;
+  border-radius: $radius-8;
   color: $color-white;
   transition: .3s;
   .fa {
@@ -164,7 +164,7 @@ textarea:focus {
   }
 }
 #create-topic:hover {
-  box-shadow: 8px 8px $color-light-violet;
+  box-shadow: 6px 6px $color-light-violet;
   transition: .3s;
 }
 
@@ -260,4 +260,34 @@ textarea:focus {
 
 .btn[href] {
   color: $color-black;
+}
+
+
+// Alert
+// *------------------------------------------------*
+
+.alert{
+  padding: 16px 24px;
+  margin-bottom: 32px;
+  .alert-info{
+    background-color: #F5F3FF;
+    border-radius: 4px;
+  }
+}
+
+// Nav pills
+// *------------------------------------------------*
+
+
+.navigation-container {
+  .nav-pills  {
+    li a:hover{
+      background-color: #E3E3ED;
+      color: #1A1859;
+      border-radius: 100px;
+    }
+    li a.active {
+      border-radius: 100px;
+    }
+  }
 }

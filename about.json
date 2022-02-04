@@ -6,9 +6,9 @@
   "assets": {},
   "color_schemes": {
     "radiant": {
-      "primary": "000000",
-      "tertiary": "3977FF",
-      "header_primary": "4d4d4d"
+      "primary": "1A1859",
+      "tertiary": "7C66FF",
+      "header_primary": "1A1859"
     }
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
